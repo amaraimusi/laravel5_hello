@@ -16,3 +16,9 @@ Route::get('/', function () {
 });
 	
 Route::get('yagis/bark', 'YagisController@bark');
+
+Route::get('hello/', function()
+{
+	
+	return 'Hello World';
+});
